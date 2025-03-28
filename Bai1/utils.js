@@ -1,0 +1,1 @@
+export const getRandomPosition = () => Math.floor(Math.random() * 300) - 50;
