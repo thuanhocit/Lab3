@@ -6,7 +6,7 @@ import { getRandomPosition } from './utils';
 import AnimatedBox from './AnimatedBox';
 
 const MoveBox = () => {
-  const offset = useSharedValue(0);
+  const offset = useSharedValue(0);  //useSharedValue lưu giá trị thay đổi mà ko render lại all component
 
   const moveBox = useCallback(() => {
     offset.value = withTiming(getRandomPosition(), {

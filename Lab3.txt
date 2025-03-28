@@ -93,9 +93,9 @@ const styles = StyleSheet.create({
 //=============================Bài 3===================================
 import React, { useRef, useState } from 'react';
 import { View, StatusBar, Animated, StyleSheet } from 'react-native';
-import Header from './Lab33/components/Header';
-import QuizList from './Lab33/components/QuizList';
-import { QUIZZES, TABS } from './Lab33/data/mockData';
+import Header from './Bai3/components/Header';
+import QuizList from './Bai3/components/QuizList';
+import { QUIZZES, TABS } from './Bai3/data/mockData';
 
 const HEADER_MAX_HEIGHT = 200;
 const HEADER_MIN_HEIGHT = 70;
